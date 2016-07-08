@@ -5,7 +5,7 @@ a fast and simple excel2007 parser and writer php extension. which is develop by
 Requirements
 ------------
 
-To compile zephir-parser:
+To compile xxexcel:
 
 * [re2c](http://re2c.org/)
 * [zephir](https://github.com/phalcon/zephir)
@@ -29,6 +29,7 @@ Usage
 ------------
 
 `
+
         $t     = strval(microtime(true));
         $excel = new \XxExcel\Reader();
         $excel->setMaxRow(5002);
